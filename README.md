@@ -135,12 +135,12 @@ If you want to skip ahead and just install, jump to [3. How to run and access th
 ---
 
 3. outputs.tf
-    This file outputs the ID of the EC2 instance and the Public IP. This IP address will be used to connect to Minecraft Server.
+This file outputs the ID of the EC2 instance and the Public IP. This IP address will be used to connect to Minecraft Server.
 
 ---
 
 4. variables.tf
-    This configuration file is used to define two variables, vpc_id and subnet_id.
+This configuration file is used to define two variables, vpc_id and subnet_id.
 
 ## 3. How to run and access the server
 
