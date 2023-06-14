@@ -144,31 +144,31 @@ If you want to skip ahead and just install, jump to [3. How to run and access th
 
 ## 3. How to run and access the server
 
-    Provided that you have supplied the relevant configurations, these are the final steps to run the server.
+Provided that you have supplied the relevant configurations, these are the final steps to run the server.
 
-    
 
-    Within the MinecraftFinal directory, intialize the Terraform project
+
+Within the MinecraftFinal directory, intialize the Terraform project
 
     ```
     Terraform init
     ```
 
-    Validate the script using
+Validate the script using
 
     ```
     Terraform Validate
     ```
 
-    Run the Terraform script using
+Run the Terraform script using
 
     ```
     Terraform apply
     ```
 
-    It will ask you ```Do you want to perform these actions? ```, type ```yes``` and continue.
+It will ask you ```Do you want to perform these actions? ```, type ```yes``` and continue.
 
-    Your output will look similar to:
+Your output will look similar to:
 
     ```
     aws_security_group.main: Creating...
@@ -183,7 +183,7 @@ If you want to skip ahead and just install, jump to [3. How to run and access th
     instance_public_ip = "23.22.145.141"
     ```
 
-    Take the ```instance_public_ip``` and use this IP to join the Minecraft server. Happy mining!
+Take the ```instance_public_ip``` and use this IP to join the Minecraft server. Happy mining!
 
 ## References
 
