@@ -151,27 +151,23 @@ Provided that you have supplied the relevant configurations, these are the final
 
 Within the MinecraftFinal directory, intialize the Terraform project
 
-    ```
     Terraform init
-    ```
+
 
 Validate the script using
 
-    ```
     Terraform Validate
-    ```
+    
 
 Run the Terraform script using
 
-    ```
     Terraform apply
-    ```
 
 It will ask you ```Do you want to perform these actions? ```, type ```yes``` and continue.
 
 Your output will look similar to:
 
-    ```
+    
     aws_security_group.main: Creating...
     aws_security_group.main: Creation complete after 4s [id=sg-01fa21f1aaf2186e3]
     aws_instance.minecraft_server: Creating...
@@ -182,7 +178,7 @@ Your output will look similar to:
 
     instance_id = "i-034c57bf1dab3a370"
     instance_public_ip = "23.22.145.141"
-    ```
+    
 
 Take the ```instance_public_ip``` and use this IP to join the Minecraft server. Happy mining!
 
