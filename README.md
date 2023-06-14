@@ -7,10 +7,10 @@ In this tutorial we will be setting up a Minecraft Java Edition Server on an AWS
   - [Table of contents](#table-of-contents)
     - [1. Setup/Requirements](#1-setuprequirements)
     - [2. Configuration Overview](#2-configuration-overview)
-    - [2.1 main.tf](#21-maintf)
-    - [2.2 minecraft.sh](#22-minecraftsh)
-    - [2.3 outputs.tf](#23-outputstf)
-    - [2.4 variables.tf](#24-variablestf)
+      - [2.1 main.tf](#21-maintf)
+      - [2.2 minecraft.sh](#22-minecraftsh)
+      - [2.3 outputs.tf](#23-outputstf)
+      - [2.4 variables.tf](#24-variablestf)
   - [3. How to run and access the server](#3-how-to-run-and-access-the-server)
   - [References](#references)
   
@@ -55,7 +55,7 @@ If you want to skip ahead and just install, jump to [3. How to run and access th
 
   
 
-### 2.1 main.tf
+#### 2.1 main.tf
 
 This file contains the bulk of our work. It specifies and sets up our provider, local variables, security group, and instance.
   
@@ -84,7 +84,7 @@ resource "aws_instance" "minecraft_server" {
 
 ---
 
-### 2.2 minecraft.sh
+#### 2.2 minecraft.sh
 
 In the Terraform file above, this bash script is ran during the first launch of the EC2 instance.
 
@@ -138,12 +138,12 @@ sudo java -Xmx1024M -Xms1024M -jar server.jar nogui
 
 ---
 
-### 2.3 outputs.tf
+#### 2.3 outputs.tf
 This file outputs the ID of the EC2 instance and the Public IP. This IP address will be used to connect to Minecraft Server.
 
 ---
 
-### 2.4 variables.tf
+#### 2.4 variables.tf
 
 This configuration file is used to define two variables, vpc_id and subnet_id.
 
