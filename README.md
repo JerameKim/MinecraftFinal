@@ -7,7 +7,7 @@ In this tutorial we will be setting up a Minecraft Java Edition Server on an AWS
   - [Table of contents](#table-of-contents)
     - [1. Setup/Requirements](#1-setuprequirements)
     - [2. Configuration Overview](#2-configuration-overview)
-  - [3. How to run and access the server](#3-how-to-run-and-access-the-server)
+    - [3. How to run and access the server](#3-how-to-run-and-access-the-server)
   - [References](#references)
   
 
@@ -143,7 +143,7 @@ If you want to skip ahead and just install, jump to [3. How to run and access th
 
     This configuration file is used to define two variables, vpc_id and subnet_id.
 
-## 3. How to run and access the server
+### 3. How to run and access the server
 
 Provided that you have supplied the relevant configurations, these are the final steps to run the server.
 
@@ -163,7 +163,7 @@ Run the Terraform script using
 
     Terraform apply
 
-It will ask you ```Do you want to perform these actions? ```, type ```yes``` and continue.
+It will ask you ```Do you want to perform these actions?```, type ```yes``` and continue.
 
 Your output will look similar to:
 
