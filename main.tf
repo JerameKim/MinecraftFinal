@@ -11,7 +11,7 @@ terraform {
 // Provider config
 provider "aws" {
   # TODO: Uncomment these lines and add your own region and path
-  region                   = "us-east-1"
+  region = "us-east-1"
   # shared_credentials_files = ["Your/Path/Here"]
 }
 
@@ -35,7 +35,7 @@ locals {
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
 resource "aws_security_group" "main" {
   vpc_id      = local.vpc_id
-  name        = "security_group"
+  name        = "security_group_minecraft"
   description = "Allow incoming player connections."
 
   # Standard minecraft port found here 

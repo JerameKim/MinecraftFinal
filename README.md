@@ -163,7 +163,7 @@ Your output will look similar to:
     instance_id = "i-034c57bf1dab3a370"
     instance_public_ip = "23.22.145.141"
 
-Take the `instance_public_ip` and use this IP to join the Minecraft server. Happy mining!
+After waiting a few minutes for the server to install, take the `instance_public_ip` and use this IP to join the Minecraft server. Happy mining!
 
 ## References
 
