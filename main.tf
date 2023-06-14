@@ -11,8 +11,8 @@ terraform {
 // Provider config
 provider "aws" {
   # TODO: Uncomment these lines and add your own region and path
-  # region = "us-east-1"
-  # shared_credentials_files = ["Your/Path/Here"]
+  region = "us-east-1"
+  # shared_credentials_files = ["/Users/jeramekim/Desktop/School/CS312 SystemAdmin/creds/minecraftFinalPulumiKeys"]
 }
 
 # aws_vpc info
